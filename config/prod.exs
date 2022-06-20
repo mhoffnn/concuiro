@@ -47,10 +47,3 @@ config :logger, level: :info
 #       force_ssl: [hsts: true]
 #
 # Check `Plug.SSL` for all available options in `force_ssl`.
-
-config :sorteio, Sorteio.Repo,
-  adapter: Ecto.Adapters.SQLite3,
-  database: "sorteio.db"
-
-config :sorteio,
-  ecto_repos: [Sorteio.Repo]
