@@ -7,7 +7,7 @@ import Config
 # Run `mix help test` for more information.
 
 config :sorteio, Sorteio.Repo,
-  adapter: Ecto.Adapters.SQLite3,
+  adapter: Ecto.Adapters.Postgres,
   database: "sorteio.db"
 
 config :sorteio,

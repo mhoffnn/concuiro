@@ -8,7 +8,7 @@
 import Config
 
 config :sorteio, Sorteio.Repo,
-  adapter: Ecto.Adapters.SQLite3,
+  adapter: Ecto.Adapters.Postgres,
   database: "sorteio.db"
 
 config :sorteio,
