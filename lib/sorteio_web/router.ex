@@ -8,6 +8,7 @@ defmodule SorteioWeb.Router do
   scope "/api", SorteioWeb do
     resources "/concursos", ConcursosController
     resources "/usuarios", UsuariosController
+    resources "/inscricoes", InscricoesController
     pipe_through :api
   end
 
