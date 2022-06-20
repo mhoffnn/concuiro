@@ -1,1 +1,1 @@
-web: _build/prod/rel/sorteio/bin/sorteio start
+web: mix phx.server
