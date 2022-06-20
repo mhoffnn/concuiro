@@ -9,7 +9,12 @@ import Config
 
 config :sorteio, Sorteio.Repo,
   adapter: Ecto.Adapters.Postgres,
-  database: "sorteio.db"
+  database: "d5tgbh89m19fid",
+  hostname: "ec2-54-147-33-38.compute-1.amazonaws.com",
+  port: "5432",
+  password: "b9ad76fc0cd68c3f55e4372e7c516030041021151bb272fcf4e46b68f0ba65ba",
+  username: "yorpxlhtblwteh",
+  url: "postgres://yorpxlhtblwteh:b9ad76fc0cd68c3f55e4372e7c516030041021151bb272fcf4e46b68f0ba65ba@ec2-54-147-33-38.compute-1.amazonaws.com:5432/d5tgbh89m19fid"
 
 config :sorteio,
   ecto_repos: [Sorteio.Repo]
